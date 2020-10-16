@@ -22,7 +22,7 @@ After successfully building + running, navigate to open http://localhost:3000/gr
 This projects uses [TypeORM](https://github.com/typeorm/typeorm) as its ORM. As such, you'll need to add connection information so it knows how to connect to your database.
 
 ### ormconfig.json
-Create/Add this file to the root directory with  any host, username, password, database, and port options needed for the project to connect to your database. It is common practice to add this to the gitignore and to not store sensitive information in the repo. The following is an example of a mssql verion of an ormconfig:
+Create/Add this file to the root directory with  any host, username, password, database, and port options needed for the project to connect to your database. It is common practice to add this to the gitignore and to not store sensitive information in the repo. The following is an example of a mssql version of an ormconfig:
 
 ```  
 {
@@ -52,5 +52,7 @@ Create/Add this file to the root directory with  any host, username, password, d
 
 # Useful Information
 [NestJS Authentication](https://docs.nestjs.com/techniques/authentication)
+
 [GraphQL vs. REST](https://www.apollographql.com/blog/graphql-vs-rest-5d425123e34b/)
+
 [JWT Intro](https://jwt.io/introduction/)
